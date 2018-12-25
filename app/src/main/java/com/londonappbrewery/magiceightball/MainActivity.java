@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 Random r = new Random(); // rand. variable
                 int num = r.nextInt(5);
 
-                ballDisplay.setImageResource(ballArray[num]);
+                int resourceID = ballArray[num];
+                ballDisplay.setImageResource(resourceID);
 
 
             }
